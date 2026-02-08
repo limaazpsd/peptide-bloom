@@ -8,24 +8,24 @@ import {
 
 const faqs = [
   {
-    question: "O que são peptídeos?",
+    question: "Isso substitui meu médico?",
     answer:
-      "Peptídeos são cadeias curtas de aminoácidos que atuam como sinalizadores biológicos no organismo. Eles regulam processos como regeneração tecidual, liberação hormonal, função cognitiva e resposta imune.",
+      "Absolutamente não. Este é um guia educacional para que você e seu profissional de saúde tomem decisões baseadas em dados, não em \"achismo\". A consulta médica é indispensável para qualquer protocolo.",
   },
   {
-    question: "Os peptídeos são seguros?",
+    question: "Serve para iniciantes?",
     answer:
-      "Quando utilizados sob orientação profissional e com produtos de alta pureza, os peptídeos possuem um excelente perfil de segurança. Todos os nossos produtos passam por rigoroso controle de qualidade laboratorial.",
+      "Sim. A seção de \"Modo de Uso\" explica desde a escolha da agulha até o local exato da aplicação no abdômen. Tudo passo a passo, com imagens e tabelas de fácil compreensão.",
   },
   {
-    question: "Como funciona a compra?",
+    question: "É seguro?",
     answer:
-      "Basta clicar em 'Comprar' no produto desejado ou em 'Falar com Especialista'. Você será direcionado ao nosso WhatsApp, onde nossa equipe irá orientá-lo sobre o protocolo ideal para seus objetivos.",
+      "O guia dedica uma seção inteira aos \"Efeitos Colaterais\" e \"Contraindicações\" para que você saiba exatamente onde está pisando. Transparência total sobre riscos e benefícios.",
   },
   {
-    question: "Vocês oferecem acompanhamento?",
+    question: "Os peptídeos são legais?",
     answer:
-      "Sim! Oferecemos consultoria científica completa com nossa equipe de bioquímicos e médicos. O acompanhamento é personalizado de acordo com seus objetivos de saúde e performance.",
+      "Peptídeos são comercializados para fins de pesquisa. É importante verificar a legislação local. Nosso guia foca na ciência e nos protocolos baseados em evidência.",
   },
   {
     question: "Qual a pureza dos produtos?",
@@ -46,7 +46,7 @@ export default function FAQSection() {
           className="text-center mb-12"
         >
           <span className="text-xs font-semibold uppercase tracking-widest text-primary mb-2 block">
-            FAQ
+            Quebra-Objeções
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold">
             Perguntas <span className="text-gradient">Frequentes</span>
