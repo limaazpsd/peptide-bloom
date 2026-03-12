@@ -58,7 +58,7 @@ export default function HeroSection() {
                   transition={{ duration: 0.7, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
                   className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.05] tracking-tight text-gradient mt-1"
                 >
-                  Comece a Otimizar.
+                  Comece a Desenhar.
                 </motion.span>
               </h1>
             </motion.div>
